@@ -1,0 +1,47 @@
+2021-10-15 18:17:09,276 - sync-logger - INFO - start sync...
+2021-10-15 18:17:25,139 - sync-logger - INFO - start sync...
+2021-10-15 18:17:39,236 - sync-logger - INFO - got sync result:
+-------
+
+2021-10-15 18:17:39,237 - sync-logger - INFO - sending incremental file list
+2021-10-15 18:17:39,237 - sync-logger - INFO - ./
+2021-10-15 18:17:39,237 - sync-logger - INFO - 2021-10-15-My-ReactJS-HelloWorld-example.md
+2021-10-15 18:17:39,237 - sync-logger - INFO - 
+2021-10-15 18:17:39,237 - sync-logger - INFO - sent 29,278 bytes  received 43 bytes  8,377.43 bytes/sec
+2021-10-15 18:17:39,237 - sync-logger - INFO - total size is 1,720,696  speedup is 58.68
+2021-10-15 18:17:39,238 - sync-logger - INFO - sending incremental file list
+2021-10-15 18:17:39,238 - sync-logger - INFO - 
+2021-10-15 18:17:39,238 - sync-logger - INFO - sent 9,250 bytes  received 11 bytes  2,646.00 bytes/sec
+2021-10-15 18:17:39,238 - sync-logger - INFO - total size is 60,823,811  speedup is 6,567.74
+2021-10-15 18:17:39,238 - sync-logger - INFO - sending incremental file list
+2021-10-15 18:17:39,238 - sync-logger - INFO - 
+2021-10-15 18:17:39,239 - sync-logger - INFO - sent 170 bytes  received 11 bytes  40.22 bytes/sec
+2021-10-15 18:17:39,239 - sync-logger - INFO - total size is 756  speedup is 4.18
+2021-10-15 18:17:39,239 - sync-logger - INFO - sending incremental file list
+2021-10-15 18:17:39,239 - sync-logger - INFO - 
+2021-10-15 18:17:39,239 - sync-logger - INFO - sent 341 bytes  received 11 bytes  78.22 bytes/sec
+2021-10-15 18:17:39,239 - sync-logger - INFO - total size is 17,589  speedup is 49.97
+2021-10-15 18:17:39,239 - sync-logger - INFO - 
+2021-10-15 18:17:39,239 - sync-logger - INFO - sync done,start ssh and rebuild...
+2021-10-15 18:17:39,990 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_5.3)
+2021-10-15 18:17:41,561 - paramiko.transport - INFO - Authentication (publickey) successful!
+2021-10-15 18:17:42,085 - sync-logger - INFO - 
+------output---------
+2021-10-15 18:18:24,307 - sync-logger - INFO - Configuration file: /opt/jekyll/bswen/_config.yml
+
+2021-10-15 18:18:24,313 - sync-logger - INFO -             Source: /opt/jekyll/bswen
+
+2021-10-15 18:18:24,313 - sync-logger - INFO -        Destination: /opt/jekyll/bswen/_site
+
+2021-10-15 18:18:24,313 - sync-logger - INFO -  Incremental build: disabled. Enable with --incremental
+
+2021-10-15 18:18:24,313 - sync-logger - INFO -       Generating... 
+
+2021-10-15 18:18:24,314 - sync-logger - INFO -          AutoPages: Disabled/Not configured in site.config.
+
+2021-10-15 18:18:24,314 - sync-logger - INFO -         Pagination: Complete, processed 7 pagination page(s)
+
+2021-10-15 18:18:24,314 - sync-logger - INFO -                     done in 39.838 seconds.
+
+2021-10-15 18:18:24,314 - sync-logger - INFO -  Auto-regeneration: disabled. Use --watch to enable.
+
